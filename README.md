@@ -5,4 +5,4 @@ Just a place for me to put config files. Might update with automation later
 * i3
 * zsh
   * .zshrc
-  * jonathanxmicah theme (minor mod to jonathan theme)
+  * jonathanxmicah theme (minor mod to jonathan theme to track python virtual environments)
