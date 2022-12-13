@@ -100,3 +100,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+
+# Django environment variables
+export DJANGO_SETTINGS_MODULE=portfoliosite.dev_settings
+
+# fnm
+export PATH=/home/micah/.fnm:$PATH
+eval "`fnm env`"

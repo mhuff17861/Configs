@@ -200,11 +200,11 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 
 # Set shutdown, restart, and locking features
 bindsym $mod+0 mode "$mode_system"
-set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+set $mode_system (l)ogout, (e)xit, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
 mode "$mode_system" {
 	bindsym l exec --no-startup-id ${HOME}/.config/i3/i3exit lock, mode "default"
 		bindsym s exec --no-startup-id ${HOME}/.config/i3/i3exit suspend, mode "default"
-		bindsym e exec --no-startup-id ${HOME}/.config/i3/i3exit logout, mode "default"
+		bindsym l exec --no-startup-id ${HOME}/.config/i3/i3exit logout, mode "default"
 		bindsym h exec --no-startup-id ${HOME}/.config/i3/i3exit hibernate, mode "default"
 		bindsym r exec --no-startup-id ${HOME}/.config/i3/i3exit reboot, mode "default"
 		bindsym Shift+s exec --no-startup-id ${HOME}/.config/i3/i3exit shutdown, mode "default"
@@ -234,6 +234,7 @@ bindsym $mod+Shift+y move workspace to output right
 bindsym $mod+y move workspace to output left
 
 bindsym $mod+f exec firefox
+bindsym $mod+Shift+o exec nautilus
 
 exec unity-settings-daemon &
 exec nm-applet &
