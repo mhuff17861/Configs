@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/micah/.oh-my-zsh"
+export ZSH="/home/dev/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-   export EDITOR='nvim'
+   export EDITOR='vim'
 # fi
 
 # Compilation flags
@@ -99,11 +99,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vim="nvim"
-
-# Django environment variables
-export DJANGO_SETTINGS_MODULE=portfoliosite.dev_settings
+export YTU_DEV_ROOT=/home/dev/Projects/YTU_Site
 
 # fnm
-export PATH=/home/micah/.fnm:$PATH
+export PATH="/home/dev/.local/share/fnm:$PATH"
 eval "`fnm env`"
+
+# Micah's Additional Aliases
+alias ytu-site="cd /home/dev/Projects/YTU_Site/"
+alias ytu-theme="cd /home/dev/Projects/YTU_Site/drupal-src/web/themes/custom/tenant_union_b5/"
+alias config-repo="cd /home/dev/Projects/Configs/"
