@@ -108,4 +108,6 @@ eval "`fnm env`"
 # Micah's Additional Aliases
 alias ytu-site="cd /home/dev/Projects/YTU_Site/"
 alias ytu-theme="cd /home/dev/Projects/YTU_Site/drupal-src/web/themes/custom/tenant_union_b5/"
+alias ytu-modules="cd /home/dev/Projects/YTU_Site/drupal-src/web/modules/custom"
 alias config-repo="cd /home/dev/Projects/Configs/"
+
