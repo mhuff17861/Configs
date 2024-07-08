@@ -1,5 +1,5 @@
 # Configs
-Just a place for me to put config files. Might update with automation later
+Just a place for me to put config files. Automation is busted, but it's better than it was.
 
 # Current Configurations
 * i3
