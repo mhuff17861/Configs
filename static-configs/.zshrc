@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/micah/.oh-my-zsh"
+export ZSH="/home/{{USERNAME}}/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -105,5 +105,5 @@ alias vim="nvim"
 export DJANGO_SETTINGS_MODULE=portfoliosite.dev_settings
 
 # fnm
-export PATH=/home/micah/.fnm:$PATH
+export PATH=/home/{{USERNAME}}/.fnm:$PATH
 eval "`fnm env`"
